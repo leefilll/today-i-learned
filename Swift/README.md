@@ -1,1 +1,53 @@
 # Swift
+
+## Swift
+
+- Compile, Link, Run
+- First Class Citizen
+- Dynamic Member Lookup
+- Initialization
+- Struct vs Class
+- Value Witness Table(VWT)
+- Copy On Write
+- KVO & KVC
+- Access Modifier
+
+## iOS
+
+- Frame과 Bounds의 차이
+- View Life Cycle
+
+## Autolayout
+
+- Storyboard & Nib
+- 코드로 작성
+- Intrinsic size
+
+## Database
+
+- UserDefaults
+- CoreData
+- Realm
+
+## Networking
+
+- 네트워킹
+- Swift와 JSON
+- URL Loading System
+- Data Task 및 URL Session Delegate
+
+## Xcode
+
+- Profile Visioning
+- Instruments
+- Xcode Test
+
+## Architecture
+
+- MVC
+- MVVM
+- Coordinator
+- Clean Architecture
+- Design Patterns
+
+## 기타
