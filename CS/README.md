@@ -14,6 +14,18 @@
 - Binary Heap
 - Graph
 
+## 알고리즘
+
+- [시간 복잡도](algorithms/time-complexity.md)
+- Insertion Sort
+- Merge Sort
+- Heap Sort
+- [Quick Sort](algorithms/quick-sort.md)
+
+### 추가 학습 내용
+
+- [Sorting Algorithm을 비판적으로 바라보자](https://asfirstalways.tistory.com/338)
+
 ## 네트워크
 
 - GET, POST 방식
