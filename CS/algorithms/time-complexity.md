@@ -1,4 +1,4 @@
-### Time Complexity
+## Time Complexity
 
 문제를 해결하려는데 걸리는 시간과 입력의 함수 관계
 
