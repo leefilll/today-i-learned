@@ -2,7 +2,7 @@
 
 ## Swift
 
-- Compile, Link, Run
+- [Basics](language/basics.md)
 - First Class Citizen
 - Dynamic Member Lookup
 - Initialization
