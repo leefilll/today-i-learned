@@ -3,8 +3,9 @@
 ## Swift
 
 - [Basics](language/basics.md)
-- First Class Citizen
+- [First Class Citizen](language/first-class-citizen.md)
 - [Dynamic Member Lookup](language/dynamic-member-lookup.md)
+- [Subscripts](language/subscripts.md)
 - Initialization
 - Struct vs Class
 - Value Witness Table(VWT)
