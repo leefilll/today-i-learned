@@ -4,7 +4,7 @@
 
 - [Basics](language/basics.md)
 - First Class Citizen
-- Dynamic Member Lookup
+- [Dynamic Member Lookup](language/dynamic-member-lookup.md)
 - Initialization
 - Struct vs Class
 - Value Witness Table(VWT)
