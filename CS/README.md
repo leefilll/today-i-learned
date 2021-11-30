@@ -10,7 +10,7 @@
 
 - [Array와 Linked List](data-structure/array-and-linkedlist.md)
 - [Stack과 Queue](data-structure/stack-and-queue.md)
-- Tree
+- [Tree](data-structure/tree.md)
 - Binary Heap
 - Graph
 
