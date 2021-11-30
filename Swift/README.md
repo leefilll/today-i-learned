@@ -6,7 +6,7 @@
 - [First Class Citizen](language/first-class-citizen.md)
 - [Dynamic Member Lookup](language/dynamic-member-lookup.md)
 - [Subscripts](language/subscripts.md)
-- Initialization
+- [Initializations](language/initializations.md)
 - Struct vs Class
 - Value Witness Table(VWT)
 - Copy On Write
