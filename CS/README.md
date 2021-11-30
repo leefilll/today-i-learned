@@ -23,6 +23,7 @@
 - Merge Sort
 - Heap Sort
 - [Quick Sort](algorithms/quick-sort.md)
+- Dijkstra 알고리즘
 
 ### 추가 학습 내용
 

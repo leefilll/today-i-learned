@@ -51,4 +51,6 @@
 - Clean Architecture
 - Design Patterns
 
-## 기타
+## WWDC
+
+- [Building Apps with Dynamic Type](wwdc/dynamic-type.md)
