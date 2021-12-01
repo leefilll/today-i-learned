@@ -9,7 +9,7 @@
 - [Initializations](language/initializations.md)
 - Struct vs Class
 - Value Witness Table(VWT)
-- Copy On Write
+- [Copy On Write](language/copy-on-write.md)
 - KVO & KVC
 - Access Modifier
 
@@ -24,18 +24,28 @@
 - 코드로 작성
 - Intrinsic size
 
+## Concurrency
+
+- Concurrency in iOS
+- Operation Queue
+- Grand Central Dispatch(GCD)
+
 ## Database
 
+- File Manager
 - UserDefaults
+- Property List
 - CoreData
 - Realm
 
 ## Networking
 
-- 네트워킹
+- Networking
 - Swift와 JSON
 - URL Loading System
 - Data Task 및 URL Session Delegate
+- Background Task
+- Caching
 
 ## Xcode
 
@@ -43,7 +53,7 @@
 - Instruments
 - Xcode Test
 
-## Architecture
+## Architectures
 
 - MVC
 - MVVM
