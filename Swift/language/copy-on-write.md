@@ -66,7 +66,7 @@ struct Box<T> {
           return ref.val
         }
         set {
-          if (!isUniquelyReferencedNonObjC(&ref)) {
+          if (!isKnownUniquelyReferenced(&ref)) {
             ref = Ref(newValue)
             return
           }
@@ -75,3 +75,7 @@ struct Box<T> {
     }
 }
 ```
+
+- `Ref` 클래스는 대입연산으로 프로퍼티 복사의 발생을 막기 위하여 감싸주는 클래스
+  제네릭 타입으로 선언
+- `Box` 구조체는 `Ref` 클래스를 제어해줄 목적으로 구현
