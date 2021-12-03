@@ -12,9 +12,8 @@
 - [Stack과 Queue](data-structure/stack-and-queue.md)
 - [Tree](data-structure/tree.md)
 - [Heap](data-structure/heap.md)
-- Graph
-
-- 우선순위 큐
+- [Graph](data-structure/graph.md)
+- [우선순위 큐](data-structure/priority-queue.md)
 
 ## 알고리즘
 
