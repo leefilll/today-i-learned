@@ -30,8 +30,10 @@
 
 ## 네트워크
 
-- GET, POST 방식
-- TCP 3-way-handshake
+- [OSI 모델](network/osi-layer.md)
+- [TCP/IP 모델](network/tcp-ip-layer.md)
+- [GET, POST](network/http-get-post.md)
 - TCP와 UDP
+- TCP 3-way-handshake
 - HTTP와 HTTPS
 - DNS
