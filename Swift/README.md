@@ -41,7 +41,7 @@
 ## Networking
 
 - [Networking](networking/networking-basics.md)
-- Swift와 JSON
+- [JSON](networking/json.md)
 - URL Loading System
 - Data Task 및 URL Session Delegate
 - Background Task
