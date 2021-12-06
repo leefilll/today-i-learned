@@ -34,6 +34,6 @@
 - [TCP/IP 모델](network/tcp-ip-layer.md)
 - [GET, POST](network/http-get-post.md)
 - [TCP와 UDP](network/tcp-udp.md)
-- TCP 3-way-handshake
+- [TCP 3-way-handshake](network/tcp-3way-handshake.md)
 - HTTP와 HTTPS
 - DNS
