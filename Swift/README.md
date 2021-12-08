@@ -58,7 +58,7 @@
 - MVC
 - MVVM
 - Coordinator
-- Clean Architecture
+- [Clean Architecture](architectures/clean-architectures.md)
 - Design Patterns
 
 ## WWDC
