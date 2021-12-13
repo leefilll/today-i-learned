@@ -23,7 +23,7 @@
 - 정렬하고자 하는 데이터의 크기가 작을 때 재귀의 비용이 더 많이 듬<br/>그래서 원소의 개수에 따라 다른 정렬을 혼합하여 사용
 - 공간 복잡도의 경우에는 구현 방법에 따라 달라짐. 일반적으로는 입력 배열이 차지하는 메모리만을 사용하는 in-place sorting 방식으로 구현하여 O(1)의 공간복잡도를 갖게 됨.
 
-### Python 구현
+### 구현 (Python)
 
 ```python
 def quick_sort(arr):
@@ -43,7 +43,7 @@ def quick_sort(arr):
 
 이 경우에는 간단하지만, 매번 재귀호출마다 새로운 리스트를 생성하여야 하므로, 메모리 사용 측면에서 비효울적임.
 
-### Python 구현(in-place sorting)
+### 구현(Python, in-place sorting)
 
 ```python
 def quick_sort(arr):

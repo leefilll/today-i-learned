@@ -18,7 +18,7 @@
 ## 알고리즘
 
 - [시간 복잡도](algorithms/time-complexity.md)
-- Insertion Sort
+- [Insertion Sort](algorithms/insertion-sort.md)
 - Merge Sort
 - Heap Sort
 - [Quick Sort](algorithms/quick-sort.md)
