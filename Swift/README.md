@@ -18,7 +18,7 @@
 ## iOS
 
 - Frame과 Bounds의 차이
-- View Life Cycle
+- [View Life Cycle](ios/view-life-cycle.md)
 
 ## Autolayout
 
