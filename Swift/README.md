@@ -45,7 +45,8 @@
 - [Networking](networking/networking-basics.md)
 - [JSON](networking/json.md)
 - [URL Loading System](networking/url-loading-system.md)
-- Data Task 및 URL Session Delegate
+- [URL Session Configuration](networking/url-session-configuration.md)
+- [URL Session Delegate](networking/url-session-delegate.md)
 - Background Task
 - Caching
 - Reachability
