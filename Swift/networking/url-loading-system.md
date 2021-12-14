@@ -49,6 +49,20 @@
 
   - 채팅과 같은 TCP 통신 개발 시 적합
 
+### URLRequest
+
+- POST와 같은 방식의 통신을 할 때, Body로 데이터를 전달해야 할 때 사용
+
+```swift
+var request = URLRequest(url: url)
+request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+request.httpMethod = "POST"
+request.httpBody = /** body data */
+
+let task = URLSession.shared.dataTask(with: request) { /** ... */}
+task.resume()
+```
+
 ### Response Handling
 
 - **Completion Handler**
