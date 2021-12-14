@@ -2,6 +2,7 @@
 
 ## 운영체제
 
+- [운영체제](os/basics.md)
 - [프로세스와 스레드](os/process-and-thread.md)
 - [멀티 스레드](os/multithread.md)
 - [프로세스 메모리 구조](os/process-memory.md)
