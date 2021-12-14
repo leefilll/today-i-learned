@@ -48,6 +48,8 @@
 - Data Task 및 URL Session Delegate
 - Background Task
 - Caching
+- Reachability
+- Task Scheduling
 
 ## Test
 
