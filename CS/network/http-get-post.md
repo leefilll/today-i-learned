@@ -36,7 +36,6 @@ GET 방식은 요청하는 데이터가 HTTP Request Message의 Header 부분에
 POST 방식은 HTTP Request Message의 Body 부분에 데이터가 담겨서 전송됨. 바이너리 데이터를 요청할 때 처럼 데이터의 크기가 크거나 보안성이 중요할 때 POST 방식을 사용(암호화 처리를 필수적으로 진행해야 함)
 
 - Content-Type이라는 Header 필드가 들어가서 어떤 데이터 타입인지 명시함. POST 방식으로 데이터를 보낼 때는 Content-Type를 통해 콘텐츠 타입을 꼭 명시해주어야 함.
--
 
 ### 차이점
 
