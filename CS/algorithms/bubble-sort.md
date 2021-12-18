@@ -12,9 +12,9 @@
 - 1회전을 수행하고 나면 가장 큰 원소가 맨 뒤로 이동하게 되고, k번째 회전이 완료되면 끝에서 k번째 원소까지 정렬이 완료됨
 - 원소의 순서가 보장되는 **안정정렬**
 
-### 구현 (C언어)
+### 구현 (C++)
 
-```c
+```cpp
 void bubble_sort(vector<int> & list) {
   for (int i = 0 ; i < list.size() ; i++) {
     for (int j = 0 ; j < list.size() - i - 1 ; j++) {

@@ -9,9 +9,9 @@
 - 최고, 최악, 평균 셋 다 O(n^2)의 시간복잡도
 - 원소의 순서가 보장되지 않음
 
-### 구현 (C 언어)
+### 구현 (C++)
 
-```c
+```cpp
 void selection_sort (vector<int> & list) {
   for (int i = 0 ; i < list.size() ; i++) {
     for (int j = 0 ; j < list.size() ; j++) {
