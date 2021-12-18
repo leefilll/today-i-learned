@@ -11,6 +11,7 @@
 
 - [Array와 Linked List](data-structure/array-and-linkedlist.md)
 - [Stack과 Queue](data-structure/stack-and-queue.md)
+- [Hash와 Hash function](data-structures/hash-and-hash-function.md)
 - [Tree](data-structure/tree.md)
 - [Heap](data-structure/heap.md)
 - [Graph](data-structure/graph.md)
