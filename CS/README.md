@@ -13,6 +13,7 @@
 - [Stack과 Queue](data-structure/stack-and-queue.md)
 - [Hash와 Hash function](data-structures/hash-and-hash-function.md)
 - [Tree](data-structure/tree.md)
+- [Binary Search Tree](data-structure/binary-search-tree.md)
 - [Heap](data-structure/heap.md)
 - [Graph](data-structure/graph.md)
 - [우선순위 큐](data-structure/priority-queue.md)
@@ -25,6 +26,8 @@
 - Heap Sort
 - [Quick Sort](algorithms/quick-sort.md)
 - Dijkstra 알고리즘
+- 크루스칼 알고리즘
+-
 
 ### 추가 학습 내용
 
