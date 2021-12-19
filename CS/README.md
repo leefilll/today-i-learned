@@ -24,7 +24,7 @@
 - [Bubble Sort](algorithms/bubble-sort.md)
 - [Selection Sort](algorithms/selection-sort.md)
 - [Insertion Sort](algorithms/insertion-sort.md)
-- Merge Sort
+- [Merge Sort](algorithms/merge-sort.md)
 - Heap Sort
 - [Quick Sort](algorithms/quick-sort.md)
 - Dijkstra 알고리즘
