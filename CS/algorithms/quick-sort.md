@@ -23,6 +23,14 @@
 - 정렬하고자 하는 데이터의 크기가 작을 때 재귀의 비용이 더 많이 듬<br/>그래서 원소의 개수에 따라 다른 정렬을 혼합하여 사용
 - 공간 복잡도의 경우에는 구현 방법에 따라 달라짐. 일반적으로는 입력 배열이 차지하는 메모리만을 사용하는 in-place sorting 방식으로 구현하여 O(1)의 공간복잡도를 갖게 됨.
 
+- 순열이나 역순의 경우 매우 느린 속도를 보임(피봇이 최소나 최댓값이라면 모든 원소를 비교해야 하므로)
+
+### 퀵 정렬이 빠른 이유
+
+- CPU 캐시의 히트율이 높음
+  > 지역성(Locality)은 CPU가 짧은 시간 범위 내에 일정 구간의 메모리 영역을 반복적으로 액세스하는 경향을 말함. 퀵 정렬의 경우, 합병 정렬과 다르게 피봇을 이용하기는 하지만, 데이터가 존재하는 위치는 변하지 않음.
+- 매 단계에서 적어도 1개의 원소가 자기 자리를 찾게 됨(pivot)
+
 ### 구현 (Python)
 
 ```python
@@ -68,4 +76,34 @@ def quick_sort(arr):
 
   return sort(0, len(arr) - 1)
 
+```
+
+### 구현 (C++)
+
+```cpp
+void quick_sort (vector<int> & list, int head, int tail) {
+  if (head >= tail) return;
+
+  int pivot = head;
+  int left = pivot + 1;
+  int right = tail;
+
+  while(left <= right) {
+    while(left <= tail && list[left] <= list[pivot]) {
+      left++;
+    }
+    while(right > head && list[right] >= list[pivot]) {
+      right--;
+    }
+
+    if (left > right) {
+      swap(list[pivot], list[right]);
+    } else {
+      swap(list[right], list[left]);
+    }
+  }
+
+  quick_sort(list, head, right - 1);
+  quick_sort(list, right + 1, tail);
+}
 ```

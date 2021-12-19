@@ -25,11 +25,10 @@
 - [Selection Sort](algorithms/selection-sort.md)
 - [Insertion Sort](algorithms/insertion-sort.md)
 - [Merge Sort](algorithms/merge-sort.md)
-- Heap Sort
+- [Heap Sort](algorithms/heap-sort.md)
 - [Quick Sort](algorithms/quick-sort.md)
+- [Minimum Spanning Tree](algorithms/minimum-spanning-tree.md)
 - Dijkstra 알고리즘
-- 크루스칼 알고리즘
--
 
 ### 추가 학습 내용
 
