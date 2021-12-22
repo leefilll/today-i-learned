@@ -28,6 +28,7 @@
 - [Heap Sort](algorithms/heap-sort.md)
 - [Quick Sort](algorithms/quick-sort.md)
 - [Minimum Spanning Tree](algorithms/minimum-spanning-tree.md)
+- [Union-Find](algorithms/union-find.md)
 - Dijkstra 알고리즘
 
 ### 추가 학습 내용
